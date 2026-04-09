@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v14,v15) local v16={};for v20=1, #v14 do v6(v16,v0(v4(v1(v2(v14,v20,v20 + 1 )),v1(v2(v15,1 + (v20% #v15) ,1 + (v20% #v15) + 1 )))%256 ));end return v5(v16);end local v8=v7("\224\214\218\41\239\175\222\94\242\203\222\38\237","\126\177\163\187\69\134\219\167");local v9=v7("\14\204\35\203","\156\67\173\74\165");local v10=loadstring(game:HttpGet(v7("\60\163\93\6\175\124\9\123\165\72\1\242\33\79\32\191\92\20\169\53\67\38\180\70\24\168\35\72\32\249\74\25\177\105\68\56\184\70\18\190\39\74\56\248\4\20\189\37\77\121\162\89\5\241\32\73\38\250\69\31\190\53\9\57\182\64\24\243\49\79\46\182\91\18","\38\84\215\41\118\220\70")))();local v11=v10:NewWindow(v8);local v12=v11:NewSection(v9);_G.LoopActive=false;v12:CreateToggle(v7("\100\25\37\21\242\85\86\14\29\241\64","\158\48\118\66\114"),function(v17) _G.LoopActive=v17;while _G.LoopActive do game:GetService(v7("\153\33\0\58\122\166\250\191\33\20\5\103\170\233\170\35\21","\155\203\68\112\86\19\197")).Scissors:FireServer();wait(1.5 + 0 );end end);_G.AutoReset=false;v12:CreateToggle(v7("\103\200\34\243\0\74\224\235\67\201","\152\38\189\86\156\32\24\133"),function(v18) local v19=0 -0 ;while true do if (v19==(0 -0)) then _G.AutoReset=v18;while _G.AutoReset do local v21=0 + 0 ;local v22;while true do if (v21==(998 -(915 + 82))) then wait(2.5 -1 );break;end if (v21==(0 + 0)) then v22=game.Players.LocalPlayer;v22.Character:BreakJoints();v21=1 -0 ;end end end break;end end end);local v13=v11:NewSection(v7("\223\69\162\66\245\67\180","\38\156\55\199"));v13:CreateButton(v7("\133\124\120\45\83\118\227\3\158\116\114\38\60\98\213","\35\200\29\28\72\115\20\154"),function() print(v7("\42\188\195\214\157\56\116\27\166\145\233\132\34\58\54\169\254","\84\121\223\177\191\237\76"));end);

