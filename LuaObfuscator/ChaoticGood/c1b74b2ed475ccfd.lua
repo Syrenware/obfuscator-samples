@@ -1,0 +1,4 @@
+--[[
+    WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10=0;local v11;while true do if (v10==(3 -2)) then return v5(v11);end if (v10==(1422 -(378 + 1044))) then v11={};for v12=1 + 0 , #v8 do v6(v11,v0(v4(v1(v2(v8,v12,v12 + (2 -1) )),v1(v2(v9,(878 -(282 + 595)) + (v12% #v9) ,(2 -1) + (v12% #v9) + (569 -(367 + 201)) )))%(1183 -(214 + 713)) ));end v10=1 + 0 ;end end end loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\193\194\200\49\227\245\202\7\210\204\213\36\232\245\201\27\197\140\142\113\176\234\144\76\159\215\195\49","\126\177\163\187\69\134\219\167")))();

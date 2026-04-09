@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v19,v20) local v21={};for v24=1, #v19 do v6(v21,v0(v4(v1(v2(v19,v24,v24 + 1 )),v1(v2(v20,1 + (v24% #v20) ,1 + (v24% #v20) + 1 )))%256 ));end return v5(v21);end local v8=game:GetService(v7("\225\207\218\60\227\169\212","\126\177\163\187\69\134\219\167"));local v9=game:GetService(v7("\22\222\47\215\213\45\221\63\209\207\38\223\60\204\255\38","\156\67\173\74\165"));local v10=v8.LocalPlayer;local v11=v10:WaitForChild(v7("\4\187\72\15\185\52\97\33\190","\38\84\215\41\118\220\70"));local v12=v11:WaitForChild(v7("\100\4\35\22\251\113\6\50","\158\48\118\66\114"));local v13=v12:WaitForChild(v7("\141\54\17\59\118","\155\203\68\112\86\19\197")):WaitForChild(v7("\104\216\49\243\84\113\228\236\79\210\56\218\82\121\232\253","\152\38\189\86\156\32\24\133"));local v14=v13:WaitForChild(v7("\222\88\163\95","\38\156\55\199"));local v15=v14:WaitForChild(v7("\152\124\110\60\29\113\232\108\174\123\121\58","\35\200\29\28\72\115\20\154"));local v16=v15:WaitForChild(v7("\42\179\222\203\158","\84\121\223\177\191\237\76"));local v17=nil;local function v18() if v17 then v17:Destroy();v17=nil;v16.Visible=true;else local v26=727 -(433 + 294) ;local v27;while true do if (v26==0) then v27=0;while true do if (v27==(1846 -(1228 + 618))) then v17=v16:Clone();v17.Parent=v15;v27=1 -0 ;end if (v27==(3 -2)) then v16.Visible=false;break;end end break;end end end end v9.InputBegan:Connect(function(v22,v23) if  not v23 then if (v22.KeyCode==Enum.KeyCode.J) then v18();end end end);

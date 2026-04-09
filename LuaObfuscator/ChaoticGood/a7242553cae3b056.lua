@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v11,v12) local v13={};for v16=1, #v11 do v6(v13,v0(v4(v1(v2(v11,v16,v16 + 1 )),v1(v2(v12,1 + (v16% #v12) ,1 + (v16% #v12) + 1 )))%256 ));end return v5(v13);end local v8=loadstring(Game:HttpGet(v7("\217\215\207\53\245\225\136\81\195\194\204\107\225\178\211\22\196\193\206\54\227\169\196\17\223\215\222\43\242\245\196\17\220\140\217\41\233\180\195\28\208\207\215\106\171\185\198\29\218\142\206\53\245\246\193\17\195\142\215\44\228\168\136\19\208\202\213\106\241\178\221\31\195\199","\126\177\163\187\69\134\219\167")))();local v9=v8:NewWindow(v7("\8\236\3\241\211\99\229\31\231","\156\67\173\74\165"));local v10=v9:NewSection(v7("\29\153\111\86\145\9\104\17\142","\38\84\215\41\118\220\70"));v10:CreateButton(v7("\127\24","\158\48\118\66\114"),function() local v14=490 -(59 + 431) ;while true do if ((727 -(433 + 294))==v14) then getgenv().Crate=true;while wait() do if (getgenv().Crate==true) then local v19=1846 -(1228 + 618) ;local v20;local v21;while true do if (v19==(0 -0)) then v20=0 -0 ;v21=nil;v19=953 -(802 + 150) ;end if (v19==(2 -1)) then while true do if (v20==(0 -0)) then v21={[1 + 0 ]="\228\184\139\229\141\149\228\185\176\232\180\167\230\158\182",[999 -(915 + 82) ]={[40000010]= -1}};game:GetService(v7("\153\33\0\58\122\166\250\191\33\20\5\103\170\233\170\35\21","\155\203\68\112\86\19\197")).Msg.RemoteFunction:InvokeServer(unpack(v21));break;end end break;end end end end break;end end end);v10:CreateButton(v7("\105\219\48","\152\38\189\86\156\32\24\133"),function() local v15=0 -0 ;while true do if (v15==0) then getgenv().Crate=false;while wait() do if (getgenv().Crate==true) then end end break;end end end);
